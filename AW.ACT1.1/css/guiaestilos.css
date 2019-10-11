@@ -1,0 +1,418 @@
+/* -------------------- */
+
+/* Guía de Estilos */
+
+/* -------------------- */
+
+/* ---------- Fuentes tipograficas externas ---------- */
+
+/* POR CADA TIPO DE  FAMILIA  DE TIPOGRAFIA SE TIENE QUE HACER UN FONT-FACE ENTERO COMO 
+EL DE ABAJO.  EJEMPLO -AQUI ABAJO ES PARA LA TIPO: OPEN SANS */
+
+/* Convierto a comentario, todo aquello que no quiero cargar, pero quiero tener esa 
+linea de codigo, para saber como se hace normalmente. */
+
+@font-face {
+    font-family: 'OpenSans';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* EL SRC: LOCAL(' NOMBRE DE LA FUENTE TIPOGRAFICA, PUEDES
+    CAMBIARLE EL NOMBRE SI QUIERES. PERO EL LOCAL Y EL FONTFAMILY
+    (Arriba)
+    DEBEN PONER LO MISMO, CUIDADO */
+    src: local('OpenSans'),
+        /* FIN */
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Regular.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/OpenSans-Regular.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+/* FIN */
+
+@font-face {
+    font-family: 'OpenSansBold';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('OpenSansBold'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Bold.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/OpenSans-Bold.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'OpenSansLigth';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('OpenSansLigth'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/OpenSans-Light.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+/* Helvetica Ligth */
+
+@font-face {
+    font-family: 'helveticaLt';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('helveticaLt'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts-tipografia/HelveticaNeueLTStdLt) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'helveticaBolder';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('helveticaBolder'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/HelveticaNeueLTStd-BdCn.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'acuminBolderpro';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('acuminBolderpro'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/Acumin-BdPro.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'acuminNormal';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('acuminNormal'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/Acumin-RPro.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'robotoBold';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('robotoBold'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/Roboto-Bold.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'robotoNormal';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('robotoNormal'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/Roboto-Regular.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'robotoLigth';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('robotoLigth'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/Roboto-Light.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'robotoMedium';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('robotoMedium'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/Roboto-Medium.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'MontserratLigth';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('montserratLigth'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        /* url(../fonts/tipografia/) format('woff'); */
+        url(../fonts/tipografia/montserrat-light-webfont.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'MontserratRegular';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('montserratRegular'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.woff) format('woff'); */
+        url(../fonts/tipografia/montserrat-regular-webfont.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'MontserratBold';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('montserratBold'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.woff) format('woff'); */
+        url(../fonts/tipografia/montserrat-bold-webfont.woff2) format('woff2');
+
+}
+
+
+
+/* Otros FontFace por si quieres modificarlos mas adelante */
+
+@font-face {
+    font-family: 'OpenSansLigth';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('OpenSansLigth'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'OpenSansLigth';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('OpenSansLigth'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/OpenSans-Light.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+/* ---------- HTML ---------- */
+
+html {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'OpenSans', sans-serif;
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around
+}
+
+.logo {
+    width: 200px;
+}
+
+nav a {
+    font-size: 2rem;
+    ;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+footer img {
+    width: 400px;
+    height: 250px;
+}
+
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 110rem;
+    text-align: center
+}
+
+.programa {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.ancla {
+    font-size: 2rem;
+    ;
+    position: fixed;
+    right: 50px;
+    bottom: 50%;
+}
+
+/* Ejercicio 3 Imagenes */
+/* .imagenes{display: flex;flex-wrap: wrap; } */
+section.imagenes img {
+    width: 250px;
+    height: 250px;
+}
+
+section.imagenes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+}
+
+section.imagenes div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+
+
+}
+
+section.imagenes li {
+    list-style: none;
+    
+}
+
+/* section.imagenes ul li {
+    list-style: none;
+    width: 150px;
+    height: 150px;
+} */
+
+/* section.imagenes ul {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+section.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;max-width: 900px;
+}
+section.grid div img{width: 100%;height: 200px}
+
+.uno {
+    grid-row: 1/2;
+    grid-column: 1/2; 
+}
+
+.dos {
+    grid-row: 2/2;
+    grid-column: 3/4
+}
+
+.tres {
+    grid-row: 1/1;
+    grid-column: 3/3
+}
+
+.cuatro {
+    grid-row: 2/2;
+    grid-column: 1/1;
+}
+
+.cinco {
+    grid-row: 2/2;
+    grid-column: 2/2;
+}
+
+.seis {
+    grid-row: 2/2;
+    grid-column: 3/3;
+}
+
+
+
+/* .formulario{border: 2px solid black;width: 500px;} */
+/* 
+nav {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between
+} */
+
+
+/* ---------- Margenes ---------- */
+
+/* Margenes del cuerpo del contenido */
+
+
+
+/* margenes del menu */
+
+
+
+
+/* margenes verticales */
+
+
+
+
+/* ---------- Colores ---------- */
+
+
+
+
+
+/* ---------- Tipografia ---------- */
