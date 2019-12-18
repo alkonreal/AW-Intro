@@ -1,0 +1,328 @@
+/* ----------------------------------- */
+
+/* ESTILOS GENERALES (Diseño Elástico) */
+
+/* ----------------------------------- */
+
+/* ---------- MEDIA QUERIS ---------- */
+
+/* -------------------- */
+
+/* SMARTPHONE (Vertical)*/
+
+/* -------------------- */
+
+/* Acuerdate que el ultimo media queri, puede pisar lo que los demas tengan
+puesto, tenlo en cuenta.  */
+
+@media only screen and (min-device-width:100px) and (orientation: portrait) and (max-width:400px)
+/* Horientacion Vertical */
+
+
+/* FIN */
+
+    {
+    header {
+        display: flex;
+        background-image: url(../img/desktop/thermorecetas.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Izquierda */
+    div.content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    h3.categorias {
+        width: 7rem;
+        text-align: center;
+    }
+
+    .izquierda {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ul_categorias {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ul_categorias li {
+        margin-bottom: 10px;
+    }
+
+    /* Centro */
+    .centro {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .publi {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .img_ensalada {
+        width: 100%;
+    }
+
+    main.centro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main.centro p {
+        width: 100%;
+    }
+
+    p.p_ingredientes {
+        text-align: center;
+    }
+
+    /* Derecha */
+    section.derecha {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    /* Footer */
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .P_footer {
+        font-size: 14px;
+    }
+
+
+
+}
+
+/* -------------------- */
+
+/* TABLET */
+
+/* -------------------- */
+
+/* ---------- VERTICAL ---------- */
+
+@media only screen and (min-device-width:768px) and (orientation: portrait) {}
+
+/* ---------- HORIZONTAL ---------- */
+
+@media only screen and (min-device-width:1024px) and (orientation: landscape) {}
+
+/* -------------------- */
+
+/* ESCRITORIO */
+
+/* -------------------- */
+
+@media only screen and (min-device-width:1366px) {
+    body {
+        background-color: #F6F6F9;
+    }
+
+
+    .content {
+        padding-left: 2%;
+        padding-right: 2%;
+        display: flex;
+        /* justify-content: center; */
+        /* max-width: 1900px; */
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    .izquierda {
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+    }
+
+    .categorias {
+        width: 7rem;
+        text-align: center;
+    }
+
+    /* ul.categorias {
+        background-color: red;
+    } */
+
+    .centro {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F6F6F9;
+        justify-content: center;
+    }
+
+    main.centro p {
+        width: 40%;
+    }
+
+    .p_ingredientes {
+        text-align: center;
+    }
+
+    .derecha {
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-self: right; */
+        
+        height: 50%;;
+    }
+
+    .input_derecha {
+        width: 100%;
+    }
+
+    .zumo {
+        width: 100%;
+    }
+
+    .receta {
+        font-size: 1.3rem; margin: 0px;
+    }
+
+    .buscar1 {
+        width: 100%;
+    }
+
+    /* Header */
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 200px;
+        background-image: url(../img/desktop/thermorecetas.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        background-color: #F6F6F9;
+        ;
+        padding-left: 200px;
+    }
+
+    .P_footer {
+        text-align: center;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Para backgrounds o imagenes ,aqui debajo de estas lineas*/
+
+/* CON RETINA DISPLAY DESKTOP  2x-Escritorio*/
+
+@media only screen and (-webkit-pixel-ratio:2),
+/* PARA MOZILLA */
+
+only screen and (-moz-pixel-ratio:2),
+/* PARA MICROSOFT EXPLORER */
+
+only screen and (-ms-pixel-ratio:2) and (min-width:800px) {
+
+    /* EJEMPLO */
+    header {
+        background-image: url(../img/desktop/manoiphonemonitor@2x.jpg)
+    }
+}
+
+/* TABLET */
+
+/* CON RETINA DISPLAY 2X Tablet */
+
+/* ---------- VERTICAL ---------- */
+@media only screen and (-webkit-pixel-ratio:2),
+only screen and (-moz-pixel-ratio:2),
+only screen and (-ms-pixel-ratio:2) and (min-width:768px) and (orientation: portrait) {
+
+    /* EJEMPLO */
+    header {
+        background-image: url(../img/smartphone/manoiphonemonitor@2x.jpg);
+    }
+}
+
+/* ---------- HORIZONTAL ---------- */
+/* PARA IMAGENES EN TABLET, ME DICE QUE NO IMPORTA EL MODO HORIZONTAL */
+/* @media only screen and (-webkit-pixel-ratio:2),
+only screen and (-moz-pixel-ratio:2),
+only screen and (-ms-pixel-ratio:2) and (min-width:1024px) and (orientation: landscape){ */
+/* EJEMPLO */
+/* header {
+        background-image: url(../img/smartphone/manoiphonemonitor@2x.jpg);
+    }
+} */
+
+
+
+
+
+
+
+/* CON RETINA DISPLAY 2X SMARTPHONE */
+
+@media only screen and (-webkit-pixel-ratio:2),
+only screen and (-moz-pixel-ratio:2),
+only screen and (-ms-pixel-ratio:2) and (min-width:320px) {
+
+    /* EJEMPLO */
+    header {
+        background-image: url(../img/smartphone/manoiphonemonitor@2x.jpg);
+    }
+}
+
+/* CON RETINA DISPLAY 3-Movil*/
+
+@media only screen and (-webkit-pixel-ratio:3),
+/* PARA MOZILLA */
+
+only screen and (-moz-pixel-ratio:3),
+/* PARA MICROSOFT EXPLORER */
+
+only screen and (-ms-pixel-ratio:3) {
+
+    /* EJEMPLO */
+    header {
+        background-image: url(../img/smartphone/manoiphonemonitor@3x.jpg)
+    }
+}

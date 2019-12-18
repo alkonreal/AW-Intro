@@ -1,0 +1,13 @@
+---------------------
+ CREDITS
+---------------------
+
+	- Bootstrap 4  -  https://getbootstrap.com
+
+	- Lightbox2    -  https://lokeshdhakar.com/projects/lightbox2/
+	
+	- Leaflet      -  https://leafletjs.com
+
+	- FontAwesome  -  https://fontawesome.com/start
+
+	- Stroke Icons -  https://themes-pixeden.com/font-demos/7-stroke/

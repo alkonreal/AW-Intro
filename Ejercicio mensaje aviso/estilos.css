@@ -1,0 +1,16 @@
+body{display: flex;flex-direction: column;width: 100%;align-items: center;;}
+.marco {
+    border: 2px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #eee;width: 50%;text-align: center;
+
+}
+
+#error , #warning{padding: 7px;border-radius: 6px;border:  2px solid #ddd;
+   ;width: 50%;text-align: center;}
+   #warning{background: yellow url(/AW.ACT1.1/img/desktop/GNU-Linux-Logo-Penguin-SVG.png) no-repeat left; background-size: contain;;    }
+   #error{background: red no-repeat url(/AW.ACT1.1/img/desktop/server_linux_2-555px.png);background-size: contain; ;}
+
+
+   ul li span{color: blue;}

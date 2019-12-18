@@ -1,0 +1,43 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: #eee;
+}
+* {
+	box-sizing: border-box;
+}
+header{
+	position: sticky;
+	top:0;
+	left:0;
+	padding: 5px;
+	background-color: white;
+	width: 100%;
+
+	/* TODO: Bordes sobreados */
+}
+nav{
+		min-height: 140px;
+		padding: 10px;
+
+		display: flex;
+		flex-direction: row;  /* row | column*/
+		justify-content:  space-around; /*  flex-start | flex-end |center | space-between | space-around */
+		align-items: center;/* center | flex-start | flex-end  */
+}
+
+nav a{font-family: 'roboto slab', serif;}
+.fa-suse{border: 2px solid; font-size: 100px;color: yellowgreen;border-radius: 5px;;}
+.fa-d-and-d{border: 2px solid; font-size: 100px;;border-radius: 5px;}
+
+/* Imatges responsive */
+img{
+	width: 100%;
+}
+
+main, nav{
+	border:1px solid #000;
+}
+
+main{display: flex;justify-content: center;}
+
+i{margin-right: 10px;}

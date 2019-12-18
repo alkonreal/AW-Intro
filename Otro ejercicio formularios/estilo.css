@@ -1,0 +1,2 @@
+form{display: flex;flex-direction: row;justify-content: center;width: 100%;}
+fieldset{display: flex;flex-direction: column;width: 50%;}

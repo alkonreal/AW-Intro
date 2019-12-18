@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="index.html" method="POST">
+        <fieldset><label for="">Tratamiento</label>
+            Sr. <input type="radio" name="trato " value="SR">
+            Sra. <input type="radio" name="trato" value="Sra">
+            <br>
+            <label for="">Nombre</label>
+            <input type="text" name="nombre" value="" maxlength="15" size="20">
+            <br>
+            <label for="">E-Mail</label>
+            <input type="email" placeholder="aqui tu email" maxlength="50" size="30">
+            <input type="submit">
+            <br>
+            <label for="">Fecha de nacimiento</label>
+            <input type="date" name="fecha-nacimiento">
+            <!-- <input type="submit" name="fecha-nacimiento"> -->
+            <br>
+            <label for="">Telefono</label>
+            <input type="tel" placeholder="aqui tu numero de telefono. SOLO NUMEROS" size="50" name="telefono"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="">
+            <br>
+            <label for="">Camisetas</label>
+
+            <input type="number" name="camisetas" min="1" max="10" id="">
+            <br>
+            <label for="">Color</label>
+            <input type="color" name="Color" id="">
+            <br>
+            <label for="">Camiseta</label>
+            <br>
+            <input type="image" width="200px" src="/SW-Inicio/img/desktop/Gobierno de Alarcon.png" alt="">
+            <br>
+            <label for="">url</label>
+
+            <input type="url" name="" id="">
+            <br>
+            <label for="">Comentarios</label>
+            <br>
+            <textarea name="Comentarios" id="" cols="30" rows="10" placeholder="Aqui tus comentarios"></textarea>
+            <br>
+            <label for="">Gastos De Envio</label>
+            <input type="text" name="" value="100€" readonly id="">
+
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

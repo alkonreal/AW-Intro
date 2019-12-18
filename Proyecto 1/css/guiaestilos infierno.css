@@ -1,0 +1,381 @@
+/* -------------------- */
+
+/* Guía de Estilos */
+
+/* -------------------- */
+
+/* ---------- Fuentes tipograficas externas ---------- */
+
+/* POR CADA TIPO DE  FAMILIA  DE TIPOGRAFIA SE TIENE QUE HACER UN FONT-FACE ENTERO COMO 
+EL DE ABAJO.  EJEMPLO -AQUI ABAJO ES PARA LA TIPO: OPEN SANS */
+
+/* Convierto a comentario, todo aquello que no quiero cargar, pero quiero tener esa 
+linea de codigo, para saber como se hace normalmente. */
+
+@font-face {
+    font-family: 'OpenSans';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* EL SRC: LOCAL(' NOMBRE DE LA FUENTE TIPOGRAFICA, PUEDES
+    CAMBIARLE EL NOMBRE SI QUIERES. PERO EL LOCAL Y EL FONTFAMILY
+    (Arriba)
+    DEBEN PONER LO MISMO, CUIDADO */
+    src: local('OpenSans'),
+        /* FIN */
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Regular.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/OpenSans-Regular.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+/* FIN */
+
+@font-face {
+    font-family: 'OpenSansBold';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('OpenSansBold'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Bold.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/OpenSans-Bold.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'OpenSansLigth';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('OpenSansLigth'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/OpenSans-Light.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+/* Helvetica Ligth */
+
+@font-face {
+    font-family: 'helveticaLt';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('helveticaLt'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts-tipografia/HelveticaNeueLTStdLt) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'helveticaBolder';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('helveticaBolder'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/HelveticaNeueLTStd-BdCn.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'acuminBolderpro';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('acuminBolderpro'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/Acumin-BdPro.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'acuminNormal';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('acuminNormal'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/Acumin-RPro.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'robotoBold';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('robotoBold'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/Roboto-Bold.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'robotoNormal';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('robotoNormal'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/Roboto-Regular.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'robotoLigth';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('robotoLigth'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/Roboto-Light.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'robotoMedium';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('robotoMedium'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/Roboto-Medium.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'MontserratLigth';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('montserratLigth'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        /* url(../fonts/tipografia/) format('woff'); */
+        url(../fonts/tipografia/montserrat-light-webfont.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'MontserratRegular';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('montserratRegular'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.woff) format('woff'); */
+        url(../fonts/tipografia/montserrat-regular-webfont.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'MontserratBold';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('montserratBold'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.woff) format('woff'); */
+        url(../fonts/tipografia/montserrat-bold-webfont.woff2) format('woff2');
+
+}
+
+
+
+/* Otros FontFace por si quieres modificarlos mas adelante */
+
+@font-face {
+    font-family: 'OpenSansLigth';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('OpenSansLigth'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+@font-face {
+    font-family: 'OpenSansLigth';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: local('OpenSansLigth'),
+        /* url(../fonts/opensans.eot) format('embedded-opentype'), */
+        /* url(../fonts/tipografia/OpenSans-Light.ttf) format('truetype'), */
+        /* url(../fonts/opensans.otf) format('opentype'), */
+        url(../fonts/tipografia/OpenSans-Light.woff) format('woff');
+    /* url(../fonts/opensans.woff) format('woff2');*/
+}
+
+/* ---------- HTML ---------- */
+
+html {
+    font-size: 16px;
+    font-family: 'OpenSans', sans-serif;
+}
+
+body {
+    padding: 0 20% 0 20%;
+    background-image: url(../img/desktop/fons.jpg);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #012d52;
+    /* border-radius: 10px; */
+    align-items: center;
+    border-bottom: 5px black dotted;
+    /* background: url(../img/desktop/fons_titol.png) */
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Pelicula y descripción */
+div.content {
+    background-color: white;
+    padding: 10px;
+    ;
+}
+
+.poster {
+    width: 20rem;
+    margin-bottom: 30px;
+    ;
+}
+
+/* Sección General */
+.general {
+    display: flex;
+}
+
+/* Sección texto */
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.negrita {
+    font-weight: bold;
+    ;
+}
+
+/* Sección imagendesc */
+.imagendesc {
+    display: flex;
+    flex-direction: column
+}
+
+.enlace {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    ;
+    background-color: wheat;
+    border: 2px solid orange;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #012d52;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    ;
+}
+
+/* ---------- Margenes ---------- */
+p { padding-left: 10px;
+    
+    
+    width: 100%;
+}
+
+h1 {
+    margin-left: 30px;
+
+
+}
+
+.titulo {
+    background-color: #808080; margin: 10px;
+}
+
+.descripcion {
+    font-size: 13px;
+    
+    
+    border-top: dotted black 3px;
+}
+
+.tipo {
+    border-top: black dotted 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    ;
+}
+
+.dire {
+    border-top: dotted black 3px;
+    ;
+}
+
+.gui {
+    border-top: black dotted 3px;
+}
+
+.rep {
+    border-top: dotted black 3px; margin-bottom: 30px;
+    ;
+}
+
+.pro {
+    border-top: black 3px dotted;
+}
+
+.mus {
+    border-top: dotted black 3px;
+    ;
+}
+.aficine{color: white;}
+
+/* Margenes del cuerpo del contenido */
+
+/* .imagen{display: inline;background-color:black} */
+
+
+
+/* margenes del menu */
+
+
+
+
+/* margenes verticales */
+
+
+
+
+/* ---------- Colores ---------- */
+
+
+
+
+
+/* ---------- Tipografia ---------- */

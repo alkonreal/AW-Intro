@@ -1,0 +1,91 @@
+/* Imports */
+/*----------------------------------------------------------------------------*/
+/* Importació de les fons de google fent ús de @import url ('<direcció web>') */
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Dosis|Indie+Flower|Lato|Lobster|Monoton|Odibee+Sans|Orbitron|Parisienne|Righteous|Rubik|Special+Elite|Trade+Winds&display=swap');
+
+/* Estilos generales */
+/*----------------------------------------------------------------------------*/
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Lato';
+}
+h5{
+	font-family: 'Indie Flower';
+	font-size: 25px;
+	margin: 0;padding: 0;
+}
+.desc{
+	font-family: 'Lato';
+	font-size: 18px;
+	text-align: justify;
+	line-height: 30px;
+}
+img{
+	width: 100%;
+}
+canvas {
+	display: block;
+}
+
+/* Cabecera */
+/*----------------------------------------------------------------------------*/
+header{
+	background: black;
+	text-shadow: 2px 2px 4px #000;
+
+}
+header h1{
+	font-family: 'Monoton', cursive;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-size:62px;
+	color: #fff;
+	text-align: center;
+	word-spacing: 20px;
+	padding: 25px;
+	margin: 0;
+
+	/* background-image: url('img/origin.jpg'); */
+}
+nav{
+	background: black;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	position: sticky;
+	top: 0;
+	/*opacity: 75%;*/
+}
+
+nav div{
+	border:2px solid #fff;
+	height:50px;
+	color:#fff;
+	width: 10%;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 50px;
+	min-width: 180px;
+}
+nav div:hover{
+	background-color: yellow;
+	color:black;
+}
+nav div a{
+	font-family: 'Orbitron', sans-serif;
+	color:#fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+h3{
+	font-family: 'Audiowide', sans-serif;
+	letter-spacing: 3px;
+
+}
+
+

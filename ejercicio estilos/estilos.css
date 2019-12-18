@@ -1,0 +1,8 @@
+.fondo {
+    /* background-color: burlywood; */
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    background-image: url(../AW.ACT1.1/img/desktop/GNU-Linux-Logo-Penguin-SVG.png);
+    background-size: contain;background-repeat: no-repeat;
+}

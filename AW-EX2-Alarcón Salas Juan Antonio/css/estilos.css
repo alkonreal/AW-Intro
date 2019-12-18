@@ -1,0 +1,351 @@
+/* ----------------------------------- */
+
+/* ESTILOS GENERALES (Diseño Elástico) */
+
+/* ----------------------------------- */
+
+/* ---------- MEDIA QUERIS ---------- */
+
+/* -------------------- */
+
+/* SMARTPHONE (Vertical)*/
+
+/* -------------------- */
+
+/* Acuerdate que el ultimo media queri, puede pisar lo que los demas tengan
+puesto, tenlo en cuenta.  */
+
+@media only screen and (min-device-width:100px) and (orientation: portrait) and (max-width:400px)
+/* Horientacion Vertical */
+
+/* FIN */
+
+    {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        ;
+    }
+
+    header {
+        height: 300px;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 200px;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .service {
+        text-align: center;
+    }
+
+    .servicios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    img {
+        width: 100%;
+    }
+
+    article p {
+        line-height: 30px;
+        ;padding:10px;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        ;
+        height: 300px;
+        padding: 20px;
+        ;
+    }
+
+    .boton {
+        width: 100px;
+        color: white;
+        background-color: #25b7d3;
+        border-radius: 5px;
+        ;
+        text-align: center;
+        align-self: flex-end;
+        margin-top: 10px;
+        ;
+    }
+
+    footer {
+        height: 50px;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    /* form{padding-right: 50px;padding-left: 50px;} */
+
+
+
+
+
+
+
+
+}
+
+/* -------------------- */
+
+/* TABLET */
+
+/* -------------------- */
+
+/* ---------- VERTICAL ---------- */
+
+@media only screen and (min-device-width:768px) and (orientation: portrait) {}
+
+/* ---------- HORIZONTAL ---------- */
+
+@media only screen and (min-device-width:1024px) and (orientation: landscape) {
+    nav {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+    }
+
+    
+
+    header {
+        height: 400px;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 300px;
+        align-items: center;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .head p {
+        font-size: 20px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;padding: 30px;
+    }
+
+    .service {
+        text-align: center;
+    }
+
+    .servicios {
+        display: flex;
+
+        
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33.33%;
+    }
+
+    figure {
+        width: 15rem;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    article p {
+        line-height: 30px;
+        ;
+        padding: 20px;
+    }
+
+    
+    .titulocontacto{text-align: center;}
+
+    textarea {
+        height: 100px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        ;
+        height: 300px;
+        padding: 20px;
+        ;
+    }
+
+    
+
+    .boton {
+        width: 100px;
+        color: white;
+        background-color: #25b7d3;
+        border-radius: 5px;
+        ;
+        text-align: center;
+        align-self: flex-end;
+        margin-top: 10px;
+        ;padding: 20px;
+    }
+
+    footer {
+        height: 50px;
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    /* Tamaño tipografia */
+    nav a{font-size: 23px;}
+    h2{font-size: 27px;}
+    h3{font-size: 25px;}
+
+    form p{font-size: 20px;}
+    label{font-size: 18px;}
+
+    footer p{font-size: 20px;}
+
+
+
+
+
+}
+
+/* -------------------- */
+
+/* ESCRITORIO */
+
+/* -------------------- */
+
+@media only screen and (min-width:1366px) {}
+
+
+
+
+
+
+
+
+/* Para backgrounds o imagenes ,aqui debajo de estas lineas*/
+
+/* CON RETINA DISPLAY DESKTOP  2x-Escritorio*/
+
+@media only screen and (-webkit-pixel-ratio:2),
+/* PARA MOZILLA */
+
+only screen and (-moz-pixel-ratio:2),
+/* PARA MICROSOFT EXPLORER */
+
+only screen and (-ms-pixel-ratio:2) and (min-width:800px) {
+
+    /* EJEMPLO */
+    header {
+        background-image: url(../img/desktop/manoiphonemonitor@2x.jpg)
+    }
+}
+
+/* TABLET */
+
+/* CON RETINA DISPLAY 2X Tablet */
+
+/* ---------- VERTICAL ---------- */
+@media only screen and (-webkit-pixel-ratio:2),
+only screen and (-moz-pixel-ratio:2),
+only screen and (-ms-pixel-ratio:2) and (min-width:768px) and (orientation: portrait) {
+
+    /* EJEMPLO */
+    header {
+        background-image: url(../img/smartphone/manoiphonemonitor@2x.jpg);
+    }
+}
+
+/* ---------- HORIZONTAL ---------- */
+/* PARA IMAGENES EN TABLET, ME DICE QUE NO IMPORTA EL MODO HORIZONTAL */
+/* @media only screen and (-webkit-pixel-ratio:2),
+only screen and (-moz-pixel-ratio:2),
+only screen and (-ms-pixel-ratio:2) and (min-width:1024px) and (orientation: landscape){ */
+/* EJEMPLO */
+/* header {
+        background-image: url(../img/smartphone/manoiphonemonitor@2x.jpg);
+    }
+} */
+
+
+
+
+
+
+
+/* CON RETINA DISPLAY 2X SMARTPHONE */
+
+@media only screen and (-webkit-pixel-ratio:2),
+only screen and (-moz-pixel-ratio:2),
+only screen and (-ms-pixel-ratio:2) and (min-width:320px) {
+
+    /* EJEMPLO */
+    header {
+        background-image: url(../img/smartphone/manoiphonemonitor@2x.jpg);
+    }
+}
+
+/* CON RETINA DISPLAY 3-Movil*/
+
+@media only screen and (-webkit-pixel-ratio:3),
+/* PARA MOZILLA */
+
+only screen and (-moz-pixel-ratio:3),
+/* PARA MICROSOFT EXPLORER */
+
+only screen and (-ms-pixel-ratio:3) {
+
+    /* EJEMPLO */
+    header {
+        background-image: url(../img/smartphone/manoiphonemonitor@3x.jpg)
+    }
+}

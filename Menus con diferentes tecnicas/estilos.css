@@ -1,0 +1,97 @@
+/* Para quitar el relieve de la tabla y que no quede tan feo. */
+.uno {
+    display: flex;
+    flex-direction: row;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#tabla {
+    background-color: burlywood;
+    vertical-align: top;
+    width: 100%;
+    font: bold 12px Open;
+    text-align: center;
+    border: solid 1px brown;
+    border-spacing: 4px;
+    border-top: solid 4px blue;
+    ;
+}
+
+#tabla td:hover {
+    background-color: red;
+    color: orange;
+    text-align: center;
+    border-top: solid 4px blue;
+}
+
+/* Segundo Menu */
+.dos {
+    text-align: center;
+    margin-top: 50px;
+    ;
+}
+
+span {
+    border: 1px solid #000000;
+    padding: 4px;
+    margin: 0px;
+    font: bold 12px arial;
+    background-color: chartreuse;
+    color: #000000;
+    width: 100%;
+}
+
+/* Tercer Menu */
+.tres {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    ;
+}
+
+p {
+    padding: 4px;
+    margin: 3px;
+    font: bold 12px verdana;
+    color: #fff;
+    background-color: orange;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* a:hover{color: yellow;transition: 2s;} */
+
+a {
+    text-decoration: none;
+    color: #000;
+    ;
+}
+
+/* Para Efecto hover */
+a{
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.5s;
+    transition-property: transform;
+} 
+
+a:hover:hover,
+a:focus,
+a:active {
+    transform: scale(1.5);
+}
+
+
+
+
